@@ -22,3 +22,5 @@ All text above must be included in any redistribution
 To download. click the DOWNLOADS button in the top right corner, rename the uncompressed folder Adafruit_RGBLCDShield. Check that the Adafruit_RGBLCDShield folder contains Adafruit_RGBLCDShield.cpp and Adafruit_RGBLCDShield.h
 
 Place the Adafruit_RGBLCDShield library folder your <arduinosketchfolder>/libraries/ folder. You may need to create the libraries subfolder if its your first library. Restart the IDE.
+  
+  11/4/2020 Added method uint8_t readOneButton(uint8_t) to read single button from shield
