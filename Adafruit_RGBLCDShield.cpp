@@ -433,3 +433,11 @@ uint8_t Adafruit_RGBLCDShield::readButtons(void) {
   }
   return reply;
 }
+
+uint8_t Adafruit_RGBLCDShield::readOneButton(uint8_t b) {
+  uint8_t reply = 0x1F;
+
+   reply &= ~((_i2c.digitalRead(_button_pins[b])) << i);
+  
+  return reply;
+}
