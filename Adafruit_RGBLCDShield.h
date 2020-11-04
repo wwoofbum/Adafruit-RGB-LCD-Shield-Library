@@ -192,6 +192,11 @@ public:
    * @return Returns what buttons have been pressed
    */
   uint8_t readButtons();
+    /*!
+   * @brief reads one button from the shield
+   * @return Returns what buttons have been pressed
+   */
+  uint8_t readOnoButton(uint8_t);
 
 private:
   void send(uint8_t, uint8_t);
